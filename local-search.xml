@@ -37,7 +37,7 @@
     <link href="/posts/9615.html"/>
     <url>/posts/9615.html</url>
     
-    <content type="html"><![CDATA[<h2 id="一-准备工作"><a href="#一-准备工作" class="headerlink" title="一.准备工作"></a>一.准备工作</h2><h4 id="Cheat-Engine下载"><a href="#Cheat-Engine下载" class="headerlink" title="Cheat Engine下载"></a><a href="https://www.cheatengine.org/">Cheat Engine下载</a></h4><h4 id="CT配置文件下载（暂未更新）"><a href="#CT配置文件下载（暂未更新）" class="headerlink" title="CT配置文件下载（暂未更新）"></a><a href="#">CT配置文件下载（暂未更新）</a></h4><p class="note note-warning">如果你已经拥有CT文件，可以跳过CT文件下载。</p><h2 id="二-启动Cheat-Engine并配置"><a href="#二-启动Cheat-Engine并配置" class="headerlink" title="二.启动Cheat Engine并配置"></a>二.启动Cheat Engine并配置</h2><p>启动Cheat Engine<br><img src="/img/Cheat_Engine%E7%95%8C%E9%9D%A2.png" alt="Cheat Engine界面"><br>点击左上角的文件夹图标，找到你下载好的CT文件，打开，在弹出的窗口点击确定。<br>之后下方的地址栏会显示一些内存地址。<br><img src="/img/CE%E6%B3%A8%E5%85%A5%E5%9C%B0%E5%9D%80.png" alt="CE注入地址（不同CT文件的地址不同）"></p><h2 id="三-启动Minecraft中国基岩版并注入"><a href="#三-启动Minecraft中国基岩版并注入" class="headerlink" title="三.启动Minecraft中国基岩版并注入"></a>三.启动Minecraft中国基岩版并注入</h2><p class="note note-warning">警告：请勿使用Cheat Engine进行作弊，否则你可能会被封号。</p><p>启动游戏（这里我以单人游戏举例，也可以注入联机游戏）。<br>当游戏已经正常启动时，回到Cheat Engine，点击左上角一直在闪烁的方框，在进程列表选择Minecraft进程。<br><img src="/img/%E8%BF%9B%E7%A8%8B%E5%88%97%E8%A1%A8.png" alt="进程选择（你的进程名称前八个字符可能与我不同）"><br>点击打开。</p><h2 id="四-大功告成！"><a href="#四-大功告成！" class="headerlink" title="四.大功告成！"></a>四.大功告成！</h2><p>下面是常见的功能推荐<br>（尚未完成）</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="一-准备工作"><a href="#一-准备工作" class="headerlink" title="一.准备工作"></a>一.准备工作</h2><h4 id="Cheat-Engine下载"><a href="#Cheat-Engine下载" class="headerlink" title="Cheat Engine下载"></a><a href="https://www.cheatengine.org/">Cheat Engine下载</a></h4><h4 id="CT配置文件下载"><a href="#CT配置文件下载" class="headerlink" title="CT配置文件下载"></a><a href="#">CT配置文件下载</a></h4><p class="note note-warning">受限于法律原因，不能提供文件下载</p><h2 id="二-启动Cheat-Engine并配置"><a href="#二-启动Cheat-Engine并配置" class="headerlink" title="二.启动Cheat Engine并配置"></a>二.启动Cheat Engine并配置</h2><p>启动Cheat Engine<br><img src="/img/Cheat_Engine%E7%95%8C%E9%9D%A2.png" alt="Cheat Engine界面"><br>点击左上角的文件夹图标，找到你下载好的CT文件，打开，在弹出的窗口点击确定。<br>之后下方的地址栏会显示一些内存地址。<br><img src="/img/CE%E6%B3%A8%E5%85%A5%E5%9C%B0%E5%9D%80.png" alt="CE注入地址（不同CT文件的地址不同）"></p><h2 id="三-启动Minecraft中国基岩版并注入"><a href="#三-启动Minecraft中国基岩版并注入" class="headerlink" title="三.启动Minecraft中国基岩版并注入"></a>三.启动Minecraft中国基岩版并注入</h2><p class="note note-warning">警告：请勿使用Cheat Engine进行作弊，否则你可能会被封号。</p><p>启动游戏（这里我以单人游戏举例，也可以注入联机游戏）。<br>当游戏已经正常启动时，回到Cheat Engine，点击左上角一直在闪烁的方框，在进程列表选择Minecraft进程。<br><img src="/img/%E8%BF%9B%E7%A8%8B%E5%88%97%E8%A1%A8.png" alt="进程选择（你的进程名称前八个字符可能与我不同）"><br>点击打开。</p><h2 id="四-大功告成！"><a href="#四-大功告成！" class="headerlink" title="四.大功告成！"></a>四.大功告成！</h2><p>下面是常见的功能推荐<br>（尚未完成）</p>]]></content>
     
     
     <categories>
@@ -52,6 +52,8 @@
       <tag>Minecraft</tag>
       
       <tag>配置</tag>
+      
+      <tag>修改器</tag>
       
     </tags>
     
