@@ -1,3 +1,5 @@
+http://example.com/index.html
+http://example.com/font/README.html
 http://example.com/posts/38481.html
 http://example.com/posts/18456.html
 http://example.com/posts/9615.html
@@ -7,6 +9,6 @@ http://example.com/
 http://example.com/tags/Minecraft/
 http://example.com/tags/%E9%85%8D%E7%BD%AE/
 http://example.com/tags/%E5%BC%80%E6%9C%8D/
-http://example.com/tags/%E4%BF%AE%E6%94%B9%E5%99%A8/
 http://example.com/tags/%E8%81%94%E6%9C%BA/
+http://example.com/tags/%E4%BF%AE%E6%94%B9%E5%99%A8/
 http://example.com/categories/%E6%B8%B8%E6%88%8F/
