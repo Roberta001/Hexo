@@ -1,5 +1,3 @@
-http://example.com/index.html
-http://example.com/font/README.html
 http://example.com/posts/38481.html
 http://example.com/posts/18456.html
 http://example.com/posts/9615.html
