@@ -27,6 +27,7 @@
   <!-- Custom Files headBegin end-->
   <!-- front-matter head_begin begin -->
   <!-- front-matter head_begin end -->
+    <link rel="shortcut icon" type='image/x-icon' href="/img/icon.jpg">
   <link rel="preload" href="/css/style.css" as="style">
   <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
@@ -45,7 +46,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2024-03-19T12:08:24.000Z">
-<meta property="article:modified_time" content="2024-03-20T12:56:55.625Z">
+<meta property="article:modified_time" content="2024-04-10T12:25:58.224Z">
 <meta property="article:author" content="琳峰">
 <meta property="article:tag" content="Minecraft">
 <meta property="article:tag" content="配置">
@@ -1631,7 +1632,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1712670128368),
+    lastupdate: new Date(1712752693474),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2440,19 +2441,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1404469236&auto=1&height=66"></iframe>
 
 <h2 id="一-进行IPv6网络连通性测试"><a href="#一-进行IPv6网络连通性测试" class="headerlink" title="一.进行IPv6网络连通性测试"></a>一.进行IPv6网络连通性测试</h2><p>打开<a target="_blank" rel="noopener" href="https://ipw.cn/ipv6/">IPv6地址查询</a>，如果这里显示“您的网络 IPv6 访问优先”代表你可以进行IPv6连接，此时复制你的IPv6地址。<br><img src="/img/IPv6%E5%9C%B0%E5%9D%80%E6%9F%A5%E8%AF%A2.png" class="lazyload" data-srcset="/img/IPv6%E5%9C%B0%E5%9D%80%E6%9F%A5%E8%AF%A2.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="你的IPv6地址（可能与我的不同）"></p>
-<p class="note note-info">玩家和房主都需要支持IPv6，但只需要房主复制自己的地址。</p>
+<div class="note info"><p>玩家和房主都需要支持IPv6，但只需要房主复制自己的地址。</p></div>
 
-<p class="note note-warning">显示不支持IPv6？可以参考网站提供的解决办法。</p>
+<div class="note warning"><p>显示不支持IPv6？可以参考网站提供的解决办法。</p></div>
 
 <h2 id="二-房主下载mod并启动Minecraft，开启房间"><a href="#二-房主下载mod并启动Minecraft，开启房间" class="headerlink" title="二.房主下载mod并启动Minecraft，开启房间"></a>二.房主下载mod并启动Minecraft，开启房间</h2><p>打开<a target="_blank" rel="noopener" href="https://www.curseforge.com/minecraft/mc-mods/lan-server-properties/files/all?page=1&pageSize=20">curseforge的Lan Server Properties下载界面</a>，选择对应你游戏的版本（支持Forge和Fabric）。<br>打开游戏，进入你的单人游戏，按下ESC，选择对局域网开放，会打开这样一个界面：<br><img src="/img/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%81%94%E6%9C%BAmod%E9%85%8D%E7%BD%AE%E7%95%8C%E9%9D%A2.png" class="lazyload" data-srcset="/img/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%81%94%E6%9C%BAmod%E9%85%8D%E7%BD%AE%E7%95%8C%E9%9D%A2.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="配置界面"><br>游戏模式：玩家默认的游戏模式。<br>允许作弊：是否允许玩家使用gamemode这一类的作弊命令。<br>在线模式：是否允许离线（盗版）玩家进入。<br>~启用：开启正版验证，仅允许正版玩家进入。<br>~离线模式+UUID修复：同时允许正版和离线玩家进入，同时针对正版玩家的UUID进行优化，防止无法读取皮肤与背包数据错乱的BUG。<br>~关闭：允许离线玩家进入，不进行任何UUID修复。<br>允许PVP：是否允许玩家间攻击。<br>监听端口：可以为1024-65535的任意值。</p>
-<p class="note note-warning">设置较低的端口可能会出现问题，建议使用默认的25565，同时需要你记住这里的端口号</p>
+<div class="note warning"><p>设置较低的端口可能会出现问题，建议使用默认的25565，同时需要你记住这里的端口号</p></div>
 
 <p>最大玩家数：字面意思。<br>点击创建局域网世界。</p>
 <h2 id="三-玩家连接至房主房间"><a href="#三-玩家连接至房主房间" class="headerlink" title="三.玩家连接至房主房间"></a>三.玩家连接至房主房间</h2><p>玩家启动游戏（不需要装载Lan Server Properties），点击多人游戏，添加服务器，按照以下格式输入服务器地址：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs markdown">[<span class="hljs-symbol">IPv6地址</span>]:<span class="hljs-link">端口</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[IPv6地址]:端口</span><br></pre></td></tr></table></figure>
 <p>例如：房主IPv6地址是2409:8a00:####:####:####:####:40c3:6b67，端口选择的是11451，那么玩家需要输入这个地址：</p>
-<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs clean">[<span class="hljs-number">2409</span>:<span class="hljs-number">8</span>a00:####:####:####:####:<span class="hljs-number">40</span>c3:<span class="hljs-number">6</span>b67]:<span class="hljs-number">11451</span><br></code></pre></td></tr></table></figure>
-<p class="note note-warning">不要向陌生人透露你的IPv6地址，否则你可能会遭遇网络攻击。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[2409:8a00:####:####:####:####:40c3:6b67]:11451</span><br></pre></td></tr></table></figure>
+<div class="note danger"><p>不要向陌生人透露你的IPv6地址，否则你可能会遭遇网络攻击。</p></div>
 
 <p>然后点击完成。<br>在服务器列表找到他，双击即可进入。</p>
 
@@ -2479,10 +2480,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2024-03-20T20:56:55+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2024-04-10T20:25:58+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2024年3月20日</p>
+    <p>更新于：2024年4月10日</p>
   </a>
 </div>
 
@@ -2575,9 +2576,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 一. 开服准备1.寻找合适的设备你需要一台满足以下要求的服务器&#x2F;电脑：
 
-            服务端分配内存>2GB
-          
-如果你选择使用Windows电脑开...</p>
+            服务端分配内存&gt;2GB
+            
+如果你选择使用Windo...</p>
         </a>
       
     </div>
@@ -2590,7 +2591,18 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   
 
-  
+
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/posts/18456.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
+    
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
 
 
 
@@ -2826,6 +2838,23 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
+      <script>
+  volantis.layoutHelper("comments",`<div id="lv-container" data-id="city" data-uid="MTAyMC81OTczMS8zNjE5Mw==">
+  <noscript><div><i class='fa-solid fa-exclamation-triangle'>&nbsp;无法加载 Livere 评论系统，请确保您的网络能够正常访问。</div></noscript>
+</div>`)
+</script>
+<script data-pjax type="text/javascript">
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+    
 
 
 
@@ -3090,7 +3119,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Leafing's Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"琳峰","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Leafing's Blog"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/posts/18456.html","name":"使用IPv6进行Minecraft Java版联机"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Leafing's Blog","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"琳峰","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"Leafing's Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"使用IPv6进行Minecraft Java版联机","description":"","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/posts/18456.html"},"author":{"@type":"Person","name":"琳峰","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Leafing's Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/posts/18456.html","wordCount":0,"datePublished":"2024-03-19T12:08:24.000Z","dateModified":"2024-03-20T12:56:55.625Z","keywords":"Minecraft,配置,联机","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Leafing's Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"琳峰","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"Leafing's Blog"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/posts/18456.html","name":"使用IPv6进行Minecraft Java版联机"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Leafing's Blog","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"琳峰","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"Leafing's Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"使用IPv6进行Minecraft Java版联机","description":"","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/posts/18456.html"},"author":{"@type":"Person","name":"琳峰","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"Leafing's Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/posts/18456.html","wordCount":0,"datePublished":"2024-03-19T12:08:24.000Z","dateModified":"2024-04-10T12:25:58.224Z","keywords":"Minecraft,配置,联机","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
