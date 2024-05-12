@@ -1,3 +1,4 @@
+http://example.com/posts/7845.html
 http://example.com/about/index.html
 http://example.com/about/Easter_egg.html
 http://example.com/posts/18456.html
@@ -13,4 +14,6 @@ http://example.com/tags/%E9%85%8D%E7%BD%AE/
 http://example.com/tags/%E5%BC%80%E6%9C%8D/
 http://example.com/tags/%E8%81%94%E6%9C%BA/
 http://example.com/tags/%E4%BF%AE%E6%94%B9%E5%99%A8/
+http://example.com/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/
+http://example.com/tags/%E6%95%99%E7%A8%8B/
 http://example.com/categories/%E6%B8%B8%E6%88%8F/
